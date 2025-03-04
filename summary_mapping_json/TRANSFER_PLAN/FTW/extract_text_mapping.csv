@@ -1,0 +1,293 @@
+section,sub_section,question,prompt
+SECTION A. GENERAL INFORMATION,Plan Name/Effective Date,Plan Name/Effective Date,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION A. GENERAL INFORMATION,Plan Features,Plan Features,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION A. GENERAL INFORMATION,Compensation,15. Statutory Compensation,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION A. GENERAL INFORMATION,Compensation,16. Plan Compensation,"You are an expert in image-to-text processing. Given a subsection of a 401(k) Plan Adoption Agreement, your task is to accurately convert the contents of the image into text form.
+    
+Instructions:
+    1. Checkboxes:
+        - Identify and correctly represent ticked checkboxes using [x]. Un-ticked checkboxes should be represented using [ ].
+    2. Tabular Data:
+        - Include rows only if they have at least one ticked column.
+        - For subsections in a table format, convert the data to text in the following format:
+            """"row:  
+               Elective Deferrals/Voluntary Contributions: [x]
+               Employer Match: [x]
+               Non-Elective: [x]""""
+    3. Output:
+        - Just output the text you see in the image, without any conversation-friendly comments in your output.
+        - Don't miss out any checked checkboxes.
+        - Include rows from table in your output, only if they have at least one ticked column."
+SECTION A. GENERAL INFORMATION,Definitions,Definitions,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Instructions:
+	- If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+	- Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION B. ELIGIBILITY,Exclusions,"1. The term ""Eligible Employee"" shall not include (Check items as appropriate)","You are an expert in image-to-text processing. Given a subsection of a 401(k) Plan Adoption Agreement, your task is to accurately convert the contents of the image into text form.
+    
+Instructions:
+    1. Checkboxes:
+        - Identify and correctly represent ticked checkboxes using [x]. Un-ticked checkboxes should be represented using [ ].
+    2. Tabular Data:
+        - Include rows only if they have at least one ticked column.
+        - For subsections in a table format, convert the data to text in the following format:
+            ""row:  
+               Elective Deferrals/Voluntary Contributions: [x]
+               Employer Match: [x]
+               Non-Elective: [x]""
+    3. Output:
+        - Just output the text you see in the image, without any conversation-friendly comments in your output.
+        - Don't miss out any checked checkboxes.
+        - Include rows from table in your output, only if they have at least one ticked column."
+SECTION B. ELIGIBILITY,Exclusions,2. Opt-Out,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION B. ELIGIBILITY,Eligibility Service Rules,Eligibility Service Rules,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Instructions:
+    - If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+    - Just output the text you see in the image, without any conversation-friendly comments in your output.
+    - Ignore unfilled extra blanks ____________ and capture next questions in subsection.
+    - Be precise in Identofying checkboxes. Don't miss out any checked checkboxes and Don't mark any unchecked checkboxes as checked"
+SECTION B. ELIGIBILITY,Eligibility for Plan Participation,6. Age Requirement for Plan Participation,"You are an expert in image-to-text processing. Given a subsection of a 401(k) Plan Adoption Agreement, your task is to accurately convert the contents of the image into text form.
+    
+Instructions:
+
+1. Checkboxes:
+    - Identify and correctly represent ticked checkboxes using [x]. Un-ticked checkboxes should be represented using [ ].
+2. Tabular Data:
+    - Include rows only if they have at least one ticked column.
+    - For subsections in a table format, convert the data to text in the following format: ""row: selection1, selection2, ...""
+3. Output:
+    - Provide the text exactly as it appears in the image, without any additional comments or conversational elements."
+SECTION B. ELIGIBILITY,Eligibility for Plan Participation,7. Service Requirement for Plan Participation,"You are an expert in image-to-text processing. Given a subsection of a 401(k) Plan Adoption Agreement, your task is to accurately convert the contents of the image into text form.
+    
+Instructions:
+
+1. Checkboxes:
+    - Identify and correctly represent ticked checkboxes using [x]. Un-ticked checkboxes should be represented using [ ].
+2. Tabular Data:
+    - Include rows only if they have at least one ticked column.
+    - For subsections in a table format, convert the data to text in the following format: ""row: selection1, selection2, ...""
+3. Output:
+    - Provide the text exactly as it appears in the image, without any additional comments or conversational elements."
+SECTION B. ELIGIBILITY,Eligibility for Plan Participation,8. Entry Dates for Plan Participation,"You are an expert in image-to-text processing. Given a subsection of a 401(k) Plan Adoption Agreement, your task is to accurately convert the contents of the image into text form.
+    
+Instructions:
+
+1. Checkboxes:
+    - Identify and correctly represent ticked checkboxes using [x]. Un-ticked checkboxes should be represented using [ ].
+2. Tabular Data:
+    - Include rows only if they have at least one ticked column.
+    - For subsections in a table format, convert the data to text in the following format: ""row: selection1, selection2, ...""
+3. Output:
+    - Provide the text exactly as it appears in the image, without any additional comments or conversational elements."
+SECTION B. ELIGIBILITY,Eligibility for Plan Participation,9. Entry Timing for Plan Participation,"You are an expert in image-to-text processing. Given a subsection of a 401(k) Plan Adoption Agreement, your task is to accurately convert the contents of the image into text form.
+    
+Instructions:
+    1. Checkboxes:
+        - Identify and correctly represent ticked checkboxes using [x]. Un-ticked checkboxes should be represented using [ ].
+    2. Tabular Data:
+        - Include rows only if they have at least one ticked column.
+        - For subsections in a table format, convert the data to text in the following format:
+            ""row:  
+               Elective Deferrals/Voluntary Contributions: [x]
+               Employer Match: [x]
+               Non-Elective: [x]""
+    3. Output:
+        - Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION B. ELIGIBILITY,Eligibility for Plan Participation,10. Eligibility Service Computation Rules,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION C. CONTRIBUTIONS - ELECTIVE DEFERRALS AND SAFE HARBOR,Elective Deferrals,Elective Deferrals,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION C. CONTRIBUTIONS - ELECTIVE DEFERRALS AND SAFE HARBOR,Automatic Enrollment,Automatic Enrollment,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION C. CONTRIBUTIONS - ELECTIVE DEFERRALS AND SAFE HARBOR,Voluntary Contributions,Voluntary Contributions,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION C. CONTRIBUTIONS - ELECTIVE DEFERRALS AND SAFE HARBOR,Safe Harbor Contributions,Safe Harbor Contributions,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION C. CONTRIBUTIONS - ELECTIVE DEFERRALS AND SAFE HARBOR,Testing Elections,Testing Elections,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+"SECTION D. CONTRIBUTIONS - EMPLOYER MATCHING, NON-ELECTIVE AND OTHER",Employer Matching - Allocation Service,Employer Matching - Allocation Service,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+"SECTION D. CONTRIBUTIONS - EMPLOYER MATCHING, NON-ELECTIVE AND OTHER",Employer Matching - Formula,Employer Matching - Formula,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+"SECTION D. CONTRIBUTIONS - EMPLOYER MATCHING, NON-ELECTIVE AND OTHER",Non-Elective - Allocation Service,Non-Elective - Allocation Service,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+"SECTION D. CONTRIBUTIONS - EMPLOYER MATCHING, NON-ELECTIVE AND OTHER",Non-Elective - Formula,Non-Elective - Formula,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+"SECTION D. CONTRIBUTIONS - EMPLOYER MATCHING, NON-ELECTIVE AND OTHER",Other Contributions/415,Other Contributions/415,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Instructions:
+    - If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+    - Just output the text you see in the image, without any conversation-friendly comments in your output.
+    - Ignore unfilled extra blanks ____________ and capture next questions in subsection.
+    - Be precise in Identofying checkboxes. Don't miss out any checked checkboxes and Don't mark any unchecked checkboxes as checked"
+SECTION E. VESTING,Vesting Service Rules,Vesting Service Rules,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION E. VESTING,Vesting Schedules,Vesting Schedules,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION F. DISTRIBUTIONS,Normal/Early Retirement,Normal/Early Retirement,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION F. DISTRIBUTIONS,Time & Form of Payment,Time & Form of Payment,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION F. DISTRIBUTIONS,Payments on Death,Payments on Death,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Instructions:
+    - If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+    - Just output the text you see in the image, without any conversation-friendly comments in your output.
+    - Ignore unfilled extra blanks ____________ and capture next questions in subsection.
+    - Be precise in Identofying checkboxes. Don't miss out any checked checkboxes and Don't mark any unchecked checkboxes as checked"
+SECTION F. DISTRIBUTIONS,Force-Out Provisions,Force-Out Provisions,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION F. DISTRIBUTIONS,Required Beginning Date,Required Beginning Date,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION G. IN-SERVICE WITHDRAWALS,Retirement/Hardship/Age,Retirement/Hardship/Age,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION G. IN-SERVICE WITHDRAWALS,Other Withdrawals,Other Withdrawals,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION G. IN-SERVICE WITHDRAWALS,Conditions/Limitations,Conditions/Limitations,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION G. IN-SERVICE WITHDRAWALS,Roth Rollovers and Transfers,Roth Rollovers and Transfers,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION H. PLAN OPERATIONS AND TOP-HEAVY,Plan Operations,Plan Operations,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION H. PLAN OPERATIONS AND TOP-HEAVY,Top-Heavy,Top-Heavy,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION I. MISCELLANEOUS,SECTION I. MISCELLANEOUS,SECTION I. MISCELLANEOUS,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECTION J. EXECUTION PAGE,SECTION J. EXECUTION PAGE,SECTION J. EXECUTION PAGE,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+HARDSHIP DISTRIBUTION ADDENDUM,HARDSHIP DISTRIBUTION ADDENDUM,HARDSHIP DISTRIBUTION ADDENDUM,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
+SECURE/CARES/CAA ADDENDUM,OPTIONAL PROVISIONS:,OPTIONAL PROVISIONS:,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Instructions:
+    - If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+    - Just output the text you see in the image, without any conversation-friendly comments in your output.
+    - Ignore unfilled extra blanks ____________ and capture next questions in subsection.
+    - Be precise in Identofying checkboxes. Don't miss out any checked checkboxes and Don't mark any unchecked checkboxes as checked"
+SECURE/CARES/CAA ADDENDUM,STANDARD PROVISIONS:,STANDARD PROVISIONS:,"You are an expert in image-to-text processing. Given a section of a 401K Plan Adoption Agreement, you will accurately convert the contents of the image to a text form.
+
+Keep in mind:
+
+If checkboxes are present, identify the checkboxes correctly and represent them using [x] for that question or entry.
+Just output the text you see in the image, without any conversation-friendly comments in your output."
