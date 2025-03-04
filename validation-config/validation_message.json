@@ -1,0 +1,5 @@
+{
+  "level-1": "This ensures basic integrity by checking for null values, validating data types, and enforcing essential constraints, guaranteeing the fundamental correctness of the data.",
+  "level-2": "This level performs cross-document validation, ensuring consistency and coherence between related fields across different documents under a Employer/Plan Type, maintaining data integrity at a broader scope.",
+  "level-3": "Leveraging external resources such as databases or services, Level 3 validation conducts thorough checks to ensure accuracy and compliance with external standards or regulations."
+}
