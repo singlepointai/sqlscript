@@ -1,0 +1,422 @@
+{
+  "schema_instance_id": null,
+  "plan_id": null,
+  "schema_type": null,
+  "tab_details": [
+    {
+      "name": "Employer & Plan",
+      "sections": [
+        {
+          "name": "Primary Contact Info",
+          "subsection": [
+            {
+              "name": "Primary Contact Info",
+              "lines": [
+                {
+                  "variable_name": "Primary Contact email",
+                  "data_dict_field_name": "PRIMARY_CONTACT_EMAIL",
+                  "prompt_text": "Primary contact email",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "First Name",
+                  "data_dict_field_name": "PRIMARY_CONTACT",
+                  "prompt_text": "Primary Contact First Name",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Last Name",
+                  "data_dict_field_name": "",
+                  "prompt_text": "Primary Contact Last Name",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Phone Number",
+                  "data_dict_field_name": "PRIMARY_CONTACT_PHONE",
+                  "prompt_text": "Primary Contact Phone",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Email Address",
+                  "data_dict_field_name": "PRIMARY_CONTACT_EMAIL",
+                  "prompt_text": "Primary Contact Email",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Title",
+                  "data_dict_field_name": "PRIMARY_CONTACT_TITLE",
+                  "prompt_text": "Contact information",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Street Address",
+                  "data_dict_field_name": "PRIMARY_CONTACT_ADDRESS",
+                  "prompt_text": "Contact information",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "City",
+                  "data_dict_field_name": "PRIMARY_CONTACT_CITY",
+                  "prompt_text": "Contact information",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "State",
+                  "data_dict_field_name": "PRIMARY_CONTACT_STATE",
+                  "prompt_text": "Contact information",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Zip",
+                  "data_dict_field_name": "PRIMARY_CONTACT_ZIP",
+                  "prompt_text": "Contact information",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Company & Plan Info",
+          "subsection": [
+            {
+              "name": "Company & Plan Info",
+              "lines": [
+                {
+                  "variable_name": "Company Name",
+                  "data_dict_field_name": "COMPANY_NAME",
+                  "prompt_text": "Entity name",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Employer PhoneNumber",
+                  "data_dict_field_name": "COMPANY_PHONE",
+                  "prompt_text": "Employer detail",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Employer Street Address",
+                  "data_dict_field_name": "COMPANY_ADDRESS",
+                  "prompt_text": "Employer detail",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Employer City",
+                  "data_dict_field_name": "COMPANY_CITY",
+                  "prompt_text": "Employer detail",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Employer State",
+                  "data_dict_field_name": "COMPANY_STATE",
+                  "prompt_text": "Employer detail",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Employer Zip",
+                  "data_dict_field_name": "COMPANY_ZIP",
+                  "prompt_text": "Employer detail",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Employer’s Fiscal (Tax) Year",
+                  "data_dict_field_name": "COMPANY_EMPLOYER_FISCAL_YEAR",
+                  "prompt_text": "Employer detail",
+                  "value": {
+                    "value_datatype": "Date",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Date Business Began",
+                  "data_dict_field_name": "COMPANY_DATE_OF_BUSINESS_BEGAN",
+                  "prompt_text": "Requires specific description",
+                  "value": {
+                    "value_datatype": "Date",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Payroll Frequency",
+                  "data_dict_field_name": "PAYROLL_DIVISION_OPT_1_FREQUENCY",
+                  "prompt_text": "Payroll frequency",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Legal Form of the Business",
+                  "data_dict_field_name": "EMPLOYER_BUSINESS_ENTITY_TYPE",
+                  "prompt_text": "Requires specific description",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Plan Year End",
+                  "data_dict_field_name": "PLAN_YEAR_END",
+                  "prompt_text": "Requires specific description",
+                  "value": {
+                    "value_datatype": "Date",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Legal Plan Name",
+                  "data_dict_field_name": "LEGAL_PLAN_NAME",
+                  "prompt_text": "Entity name",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Current Asset Holder",
+                  "data_dict_field_name": "",
+                  "prompt_text": "Current Asset Holder",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Bank Name",
+                  "data_dict_field_name": "",
+                  "prompt_text": "Name of the bank",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Bank Account Number",
+                  "data_dict_field_name": "",
+                  "prompt_text": "Requires specific description",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Estimated Annual Contribution",
+                  "data_dict_field_name": "",
+                  "prompt_text": "Requires specific description",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Payroll Data",
+          "subsection": [
+            {
+              "name": "Payroll Data",
+              "lines": [
+                {
+                  "variable_name": "Payroll Provider Co.",
+                  "data_dict_field_name": "",
+                  "prompt_text": "Requires specific description",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Divisions Data",
+          "subsection": [
+            {
+              "name": "Divisions Data",
+              "lines": [
+                {
+                  "variable_name": "divisionId",
+                  "data_dict_field_name": "",
+                  "prompt_text": "Requires specific description",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Bank Name",
+                  "data_dict_field_name": "",
+                  "prompt_text": "Name of the bank",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Bank Account Number",
+                  "data_dict_field_name": "",
+                  "prompt_text": "Requires specific description",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "firstPayPeriodBeginDate",
+                  "data_dict_field_name": "",
+                  "prompt_text": "Requires specific description",
+                  "value": {
+                    "value_datatype": "Date",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "divisionId",
+                  "data_dict_field_name": "",
+                  "prompt_text": "Requires specific description",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Bank Name",
+                  "data_dict_field_name": "",
+                  "prompt_text": "Name of the bank",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Bank Account Number",
+                  "data_dict_field_name": "",
+                  "prompt_text": "Requires specific description",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Bank Routing Number",
+                  "data_dict_field_name": "",
+                  "prompt_text": "Requires specific description",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "Payroll Divisions",
+                  "data_dict_field_name": "",
+                  "prompt_text": "Payroll division",
+                  "value": {
+                    "value_datatype": "Text",
+                    "value": ""
+                  },
+                  "confidence": 80
+                },
+                {
+                  "variable_name": "firstPayPeriodEndDate",
+                  "data_dict_field_name": "",
+                  "prompt_text": "Requires specific description",
+                  "value": {
+                    "value_datatype": "",
+                    "value": ""
+                  },
+                  "confidence": 80
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
