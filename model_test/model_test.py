@@ -19,15 +19,15 @@ def ask(n, prompt,
         "messages": [
             {"role": "user", "content": prompt}
         ],
-        # "min_tokens": 64,
-        "max_tokens": 750,
-        "temperature": 0.1,
-        # "top_p": 1,
-        # "top_k": 1,
-        # "stop": [],
-        # "skip_special_tokens": True,
-        # "spaces_between_special_tokens": False,
-        # 'seed': 369
+        "min_tokens": 0,  # 0
+        "max_tokens": 750,  # 16
+        "temperature": 0.1,  # 1.0
+        "top_p": 1,  # 1
+        "top_k": -1,  # -1
+        "stop": [],  # None
+        "skip_special_tokens": True,  # True
+        "spaces_between_special_tokens": False,  # True
+        'seed': 369  # None
     }
 
     start_time = time.time()

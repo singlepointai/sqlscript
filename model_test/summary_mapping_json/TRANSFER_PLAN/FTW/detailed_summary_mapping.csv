@@ -1,0 +1,408 @@
+section,sub_section,prompt,,,,,,,,,,,,,,
+SECTION A. GENERAL INFORMATION,A - Plan Name/Effective Date,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION A. GENERAL INFORMATION,A - Plan Features,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION A. GENERAL INFORMATION,A - Compensation,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+
+- Selections in multiple-choice entries are marked with an [x].
+- Do not introduce the 401K plan or subsection in your summary. Focus on just capturing the contents in your summary, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:"
+SECTION A. GENERAL INFORMATION,A - Definitions,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:"
+SECTION B. ELIGIBILITY,B - Exclusions,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION B. ELIGIBILITY,B - Eligibility Service Rules,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION B. ELIGIBILITY,B - Eligibility for Plan Participation,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION C. CONTRIBUTIONS - ELECTIVE DEFERRALS AND SAFE HARBOR,C - Elective Deferrals,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION C. CONTRIBUTIONS - ELECTIVE DEFERRALS AND SAFE HARBOR,C - Automatic Enrollment,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION C. CONTRIBUTIONS - ELECTIVE DEFERRALS AND SAFE HARBOR,C - Voluntary Contributions,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION C. CONTRIBUTIONS - ELECTIVE DEFERRALS AND SAFE HARBOR,C - Safe Harbor Contributions,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION C. CONTRIBUTIONS - ELECTIVE DEFERRALS AND SAFE HARBOR,C - Testing Elections,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+"SECTION D. CONTRIBUTIONS - EMPLOYER MATCHING, NON-ELECTIVE AND OTHER",D - Employer Matching - Allocation Service,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+"SECTION D. CONTRIBUTIONS - EMPLOYER MATCHING, NON-ELECTIVE AND OTHER",D - Employer Matching - Formula,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+"SECTION D. CONTRIBUTIONS - EMPLOYER MATCHING, NON-ELECTIVE AND OTHER",D - Non-Elective - Allocation Service,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+"SECTION D. CONTRIBUTIONS - EMPLOYER MATCHING, NON-ELECTIVE AND OTHER",D - Non-Elective - Formula,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+"SECTION D. CONTRIBUTIONS - EMPLOYER MATCHING, NON-ELECTIVE AND OTHER",D - Other Contributions/415,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION E. VESTING,E - Vesting Service Rules,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION E. VESTING,E - Vesting Schedules,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION F. DISTRIBUTIONS,F - Normal/Early Retirement,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION F. DISTRIBUTIONS,F - Time & Form of Payment,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION F. DISTRIBUTIONS,F - Payments on Death,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION F. DISTRIBUTIONS,F - Force-Out Provisions,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION F. DISTRIBUTIONS,F - Required Beginning Date,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION G. IN-SERVICE WITHDRAWALS,G - Retirement/Hardship/Age,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION G. IN-SERVICE WITHDRAWALS,G - Other Withdrawals,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION G. IN-SERVICE WITHDRAWALS,G - Conditions/Limitations,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION G. IN-SERVICE WITHDRAWALS,G - Roth Rollovers and Transfers,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION H. PLAN OPERATIONS AND TOP-HEAVY,H - Plan Operations,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION H. PLAN OPERATIONS AND TOP-HEAVY,H - Top-Heavy,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION I. MISCELLANEOUS,I - MISCELLANEOUS,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECTION J. EXECUTION PAGE,J - EXECUTION PAGE,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+HARDSHIP DISTRIBUTION ADDENDUM,HARDSHIP DISTRIBUTION ADDENDUM,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECURE/CARES/CAA ADDENDUM,SECURE/CARES/CAA ADDENDUM - OPTIONAL PROVISIONS:,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,
+SECURE/CARES/CAA ADDENDUM,SECURE/CARES/CAA ADDENDUM - STANDARD PROVISIONS:,"You are an expert in summarizing 401K Plan Adoption Agreement contents. Given the contents of a specific subsection, you will accurately summarize the entire subsection into a short paragraph of 3-8 sentences.
+
+Note that:
+- Selections in multiple-choice entries are marked with an [x].
+- Your summary should just focus on the filled contents, without any introductory text about the plan or subsection, since it will be consumed by subject matter experts.
+
+SUBSECTION: {sub_section_name}
+
+{context}
+
+SUMMARY:",,,,,,,,,,,,,,

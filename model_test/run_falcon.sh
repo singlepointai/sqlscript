@@ -2,7 +2,7 @@ nohup vllm serve "/data/falcon3-7b-instruct" \
      --tokenizer-mode auto \
      --load-format auto \
      --config-format auto \
-     --max-model-len 4000 \
+     --max-model-len 3700 \
      --gpu_memory_utilization 0.90 \
      --cpu-offload-gb 1.5 \
      --seed 369 \
