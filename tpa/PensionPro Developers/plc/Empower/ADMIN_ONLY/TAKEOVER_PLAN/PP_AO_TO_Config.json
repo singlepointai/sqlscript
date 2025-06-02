@@ -1,0 +1,379 @@
+{
+  "name": "ADMIN_ONLY_EMPOWER",
+  "stages": [
+    {
+      "name": "IngestedDocuments",
+      "type": "EXTRACT",
+      "label": "Ingested Documents",
+      "tasks": [
+        {
+          "inputs": [
+            "TPASetupForm",
+            "XPAdoptionAgreement"
+          ],
+          "taskName": "ResultExtraction",
+          "triggers": [],
+          "dependentOn": []
+        },
+        {
+          "inputs": [
+            "TPASetupForm"
+          ],
+          "taskName": "ValidateCustomerSignature",
+          "triggers": [],
+          "customTask": true,
+          "dependentOn": [
+            "ResultExtraction"
+          ],
+          "workflowName": "ValidateSignatureWorkflow",
+          "workflowVersion": "1"
+        },
+        {
+          "inputs": [
+            "XPAdoptionAgreement"
+          ],
+          "taskName": "SummaryGeneration",
+          "triggers": [],
+          "dependentOn": [
+            "ResultExtraction"
+          ]
+        },
+        {
+          "inputs": [],
+          "taskName": "PensionProPlanStatusUpdate",
+          "triggers": [],
+          "customTask": true,
+          "dependentOn": [],
+          "workflowName": "PensionProPlanStatusUpdateWorkflow",
+          "workflowVersion": "1"
+        }
+      ],
+      "actions": [
+        {
+          "name": "Save",
+          "type": "PRIMARY"
+        },
+        {
+          "name": "Approve",
+          "type": "PRIMARY"
+        },
+        {
+          "name": "Customer Signed",
+          "type": "SECONDARY",
+          "label": "Mark as Customer-Signed"
+        },
+        {
+          "name": "Edit",
+          "type": "SECONDARY"
+        }
+      ],
+      "stage_no": 1,
+      "triggers": [
+        "PlanDesignGrid"
+      ],
+      "documents": [
+        {
+          "type": "TPASetupForm",
+          "label": "TPA Setup Form",
+          "source": "ATCS-SharePoint",
+          "customer_approval_required": true
+        },
+        {
+          "type": "XPAdoptionAgreement",
+          "label": "AdoptionAgreement",
+          "source": "ATCS-SharePoint"
+        }
+      ],
+      "dependentOn": [],
+      "schemaBuilder": [],
+      "questionnaires": []
+    },
+    {
+      "name": "PlanDesignGrid",
+      "type": "DATA_GATHERER",
+      "label": "Plan Sponsor Survey",
+      "tasks": [
+        {
+          "inputs": [
+            "TAKEOVER_SINGLEPOINT_SURVEY_MAPPING"
+          ],
+          "taskName": "CreateQuestionnaireInstance",
+          "triggers": [],
+          "dependentOn": []
+        },
+        {
+          "inputs": [
+            "TAKEOVER_SINGLEPOINT_SURVEY_MAPPING"
+          ],
+          "taskName": "PushPayloadToPensionPro",
+          "triggers": [],
+          "customTask": true,
+          "dependentOn": [
+            "CreateQuestionnaireInstance"
+          ],
+          "workflowName": "PushFTWPayloadWorkflow",
+          "workflowVersion": "1"
+        },
+        {
+          "inputs": [
+            "TAKEOVER_SINGLEPOINT_SURVEY_MAPPING"
+          ],
+          "onDemand": true,
+          "taskName": "GeneratePDGSummary",
+          "triggers": [],
+          "customTask": true,
+          "dependentOn": [],
+          "workflowName": "PDGSummaryGenerationWorkflow",
+          "workflowVersion": "1"
+        }
+      ],
+      "actions": [
+        {
+          "name": "Save",
+          "type": "PRIMARY"
+        },
+        {
+          "name": "FinalizeDesign",
+          "type": "PRIMARY",
+          "label": "Finalize Design",
+          "trigger": "GeneratePDGSummary"
+        },
+        {
+          "name": "Approve",
+          "type": "PRIMARY"
+        },
+        {
+          "name": "Download",
+          "type": "SECONDARY",
+          "label": "Download as PDF"
+        },
+        {
+          "name": "Customer Signed",
+          "type": "SECONDARY",
+          "label": "Mark as Customer-Signed"
+        },
+        {
+          "name": "Edit",
+          "type": "SECONDARY"
+        }
+      ],
+      "stage_no": 2,
+      "triggers": [
+        "DesignSpecs"
+      ],
+      "documents": [],
+      "dependentOn": [
+        {
+          "stage": "IngestedDocuments",
+          "documentType": [
+            "TPASetupForm",
+            "XPAdoptionAgreement"
+          ],
+          "questionnaires": []
+        }
+      ],
+      "schemaBuilder": [],
+      "questionnaires": [
+        {
+          "name": "TAKEOVER_SINGLEPOINT_SURVEY_MAPPING",
+          "order": 1,
+          "customer_approval_required": true
+        }
+      ]
+    },
+    {
+      "name": "DesignSpecs",
+      "type": "DATA_GATHERER",
+      "label": "Design Specs",
+      "tasks": [
+        {
+          "inputs": [
+            "ATCS_DESIGN_SPECIFICATION"
+          ],
+          "taskName": "CreateQuestionnaireInstance",
+          "triggers": [],
+          "dependentOn": []
+        },
+        {
+          "inputs": [
+            "ATCS_DESIGN_SPECIFICATION"
+          ],
+          "taskName": "ApplyDefaults",
+          "triggers": [],
+          "customTask": true,
+          "dependentOn": [
+            "CreateQuestionnaireInstance"
+          ],
+          "workflowName": "ApplyDefaultsWorkflow",
+          "workflowVersion": "1"
+        },
+        {
+          "inputs": [
+            "TAKEOVER_SINGLEPOINT_SURVEY_MAPPING",
+            "ATCS_DESIGN_SPECIFICATION"
+          ],
+          "taskName": "AutoFillDesignSpec",
+          "triggers": [],
+          "customTask": true,
+          "dependentOn": [
+            "ApplyDefaults"
+          ],
+          "workflowName": "AutoFillDesignSpecWorkflow",
+          "workflowVersion": "1"
+        },
+        {
+          "inputs": [
+            "ATCS_DESIGN_SPECIFICATION"
+          ],
+          "taskName": "PushPayloadToPensionPro",
+          "triggers": [],
+          "customTask": true,
+          "dependentOn": [
+            "AutoFillDesignSpec"
+          ],
+          "workflowName": "PushFTWPayloadWorkflow",
+          "workflowVersion": "1"
+        }
+      ],
+      "actions": [
+        {
+          "name": "Save",
+          "type": "PRIMARY"
+        },
+        {
+          "name": "PushPayloadToPensionPro",
+          "type": "PRIMARY",
+          "label": "Push FTW Payload",
+          "trigger": "PushPayloadToPensionPro"
+        },
+        {
+          "name": "Approve",
+          "type": "PRIMARY"
+        },
+        {
+          "name": "Edit",
+          "type": "SECONDARY"
+        }
+      ],
+      "stage_no": 3,
+      "triggers": [
+        "FTWDocDataFile",
+        "EmpowerRKSetup"
+      ],
+      "documents": [],
+      "dependentOn": [
+        {
+          "stage": "MasterApplication",
+          "documentType": [
+            "MasterApplication"
+          ],
+          "questionnaires": []
+        },
+        {
+          "stage": "PlanDesignGrid",
+          "documentType": [],
+          "questionnaires": [
+            "TAKEOVER_SINGLEPOINT_SURVEY_MAPPING"
+          ]
+        }
+      ],
+      "schemaBuilder": [],
+      "questionnaires": [
+        {
+          "name": "ATCS_DESIGN_SPECIFICATION"
+        }
+      ]
+    },
+    {
+      "name": "FTWDocDataFile",
+      "type": "SCHEMA_BUILDER",
+      "label": "FTW Doc Data File",
+      "tasks": [
+        {
+          "inputs": [
+            "FTW_SCHEMA"
+          ],
+          "taskName": "CreateSchemaInstance",
+          "triggers": [],
+          "dependentOn": []
+        }
+      ],
+      "actions": [
+        {
+          "name": "Download",
+          "type": "PRIMARY"
+        },
+        {
+          "name": "Approve",
+          "type": "PRIMARY"
+        }
+      ],
+      "stage_no": 4,
+      "triggers": [],
+      "documents": [],
+      "dependentOn": [
+        {
+          "stage": "DesignSpecs",
+          "documentType": [],
+          "questionnaires": [
+            "ATCS_DESIGN_SPECIFICATION"
+          ]
+        }
+      ],
+      "schemaBuilder": [
+        {
+          "name": "FTW_SCHEMA"
+        }
+      ],
+      "questionnaires": []
+    },
+    {
+      "name": "EmpowerRKSetup",
+      "type": "DATA_GATHERER",
+      "label": "Empower RK Setup",
+      "tasks": [
+        {
+          "inputs": [
+            "EMPOWER_PLAN_INSTALLATION_SUMMARY"
+          ],
+          "taskName": "CreateQuestionnaireInstance",
+          "triggers": [],
+          "dependentOn": []
+        }
+      ],
+      "actions": [
+        {
+          "name": "Save",
+          "type": "PRIMARY"
+        },
+        {
+          "name": "Download",
+          "type": "PRIMARY"
+        },
+        {
+          "name": "Approve",
+          "type": "PRIMARY"
+        }
+      ],
+      "stage_no": 5,
+      "triggers": [],
+      "documents": [],
+      "dependentOn": [
+        {
+          "stage": "DesignSpecs",
+          "documentType": [],
+          "questionnaires": [
+            "ATCS_DESIGN_SPECIFICATION"
+          ]
+        }
+      ],
+      "schemaBuilder": [],
+      "questionnaires": [
+        {
+          "name": "EMPOWER_PLAN_INSTALLATION_SUMMARY"
+        }
+      ]
+    }
+  ],
+  "category": "TRANSFER_PLAN"
+}
